@@ -65,12 +65,11 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_below="@id/Text3_2"
-            android:layout_toStartOf="@+id/Image3"
             android:gravity="center_vertical"
-            android:paddingTop="@dimen/paddingDp"
             android:paddingBottom="@dimen/paddingDp"
             android:paddingLeft="@dimen/paddingDp"
             android:paddingRight="@dimen/paddingDp"
+            android:paddingTop="@dimen/paddingDp"
             android:text="@string/cardview3_about"
             android:textColor="@color/colorTextPrimary"
             android:textSize="@dimen/textSize" />

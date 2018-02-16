@@ -9,7 +9,7 @@
     <string name ="cardview2_go">Send email</string>
     <string name ="cardview3_title">About</string>
     <string name="cardview3_business">Escape Advisor</string>
-    <string name="cardview3_address1">Switzerland, VD</string>
+    <string name="cardview3_address1">Always open</string>
     <string name="cardview3_about">Lorem ipsum</string>
     <string name="cardview3_go">Share the love</string>
 </resources>
