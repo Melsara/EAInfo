@@ -20,12 +20,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sendEmail (View view) {
-        @// TODO: 17/02/2018 intent for sending email to info@escapeadvisor.eu. Define: receiver + text
+        // TODO: 17/02/2018 intent for sending email to info@escapeadvisor.eu. Define: receiver + text
 
     }
 
     public void shareTheLove (View view) {
-        @// TODO: 17/02/2018 implicit intent for sharing the about and the image 
+        // TODO: 17/02/2018 implicit intent for sharing the about and the image
 
     }
 
