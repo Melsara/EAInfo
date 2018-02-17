@@ -3,15 +3,17 @@
     <string name ="app_title">Info on Escape Adv</string>
     <string name = "website">https://www.escapeadvisor.eu</string>
     <string name ="cardview1_title">Website</string>
-    <string name ="cardview1_text">Lorem ipsum</string>
+    <string name ="cardview1_text">Our website is a growing community of leisure experts, feel free to join and to contribute with your own experience.</string>
     <string name ="cardview1_go">Go to website</string>
     <string name ="cardview2_title">Send email</string>
-    <string name ="cardview2_text">Lorem ipsum</string>
+    <string name ="cardview2_text">Want to get in touch with us? Send an email.</string>
     <string name ="cardview2_go">Send email</string>
     <string name ="cardview3_title">About</string>
     <string name ="cardview3_business">Escape Advisor</string>
     <string name ="cardview3_address1">Always open</string>
-    <string name ="cardview3_about">Lorem ipsum</string>
+    <string name ="cardview3_about">We are young professional in the leisure business. Our main experience is on Escape Rooms and reality games, but we will be happy to hear about you and your project. \nLove how it sounds? Then share the love.</string>
     <string name ="cardview3_go">Share the love</string>
-    <string name ="email_subject">Check this out - Escape Advisor</string>
+    <string name ="email_subject">Tell me more about EA</string>
+    <string name ="email_object">I would like to get in touch with you. \nPlease reply to this email asap.</string>
+    <string name ="email_recipient">"info@escapeadvisor.eu"</string>
 </resources>
