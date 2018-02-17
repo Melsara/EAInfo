@@ -1,15 +1,17 @@
 <resources>
-    <string name="app_name">EAdv Info</string>
-    <string name="app_title">Info on Escape Adv</string>
-    <string name="cardview1_title">Website</string>
-    <string name="cardview1_text">Lorem ipsum</string>
-    <string name="cardview1_go">Go to website</string>
+    <string name ="app_name">EAdv Info</string>
+    <string name ="app_title">Info on Escape Adv</string>
+    <string name = "website">https://www.escapeadvisor.eu</string>
+    <string name ="cardview1_title">Website</string>
+    <string name ="cardview1_text">Lorem ipsum</string>
+    <string name ="cardview1_go">Go to website</string>
     <string name ="cardview2_title">Send email</string>
     <string name ="cardview2_text">Lorem ipsum</string>
     <string name ="cardview2_go">Send email</string>
     <string name ="cardview3_title">About</string>
-    <string name="cardview3_business">Escape Advisor</string>
-    <string name="cardview3_address1">Always open</string>
-    <string name="cardview3_about">Lorem ipsum</string>
-    <string name="cardview3_go">Share the love</string>
+    <string name ="cardview3_business">Escape Advisor</string>
+    <string name ="cardview3_address1">Always open</string>
+    <string name ="cardview3_about">Lorem ipsum</string>
+    <string name ="cardview3_go">Share the love</string>
+    <string name ="email_subject">Check this out - Escape Advisor</string>
 </resources>
