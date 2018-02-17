@@ -28,30 +28,38 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /*    This methods is used in card1 to go to EA website*/
+
     public void goToWebsite(View view) {
         goToUrl(website);
 
     }
 
+    /*    This methods is used in card3 to send email to EA mail recipient*/
+
     public void sendEmail(View view) {
         mail.setData(Uri.parse("mailto:"));
         mail.putExtra(Intent.EXTRA_TEXT, object);
         mail.putExtra(Intent.EXTRA_SUBJECT, (getString((R.string.email_subject))));
-        mail.putExtra(Intent.EXTRA_EMAIL,new String[] { getString(R.string.email_recipient) });
+        mail.putExtra(Intent.EXTRA_EMAIL, new String[]{getString(R.string.email_recipient)});
         if (mail.resolveActivity(getPackageManager()) != null) {
             startActivity(mail);
         }
 
     }
 
+    /*    This methods is used in card3 to share info about EA*/
+
     public void shareTheLove(View view) {
         Intent sharingIntent = new Intent(Intent.ACTION_SEND);
         sharingIntent.setType("text/plain");
-        sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, business + "\n"+ address1 + "\n" + about);
+        sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, business + "\n" + address1 + "\n" + about);
         if (sharingIntent.resolveActivity(getPackageManager()) != null) {
-            startActivity(Intent.createChooser(sharingIntent,"Share you love using"));
+            startActivity(Intent.createChooser(sharingIntent, "Share you love using"));
         }
     }
+
+    /*    This methods is used in goToWebsite*/
 
     private void goToUrl(String url) {
         Uri uriUrl = Uri.parse(url);
