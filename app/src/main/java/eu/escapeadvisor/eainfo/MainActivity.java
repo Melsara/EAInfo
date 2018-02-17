@@ -28,14 +28,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    /*    This methods is used in card1 to go to EA website*/
+    /*    This method is used in card1 to go to EA website*/
 
     public void goToWebsite(View view) {
         goToUrl(website);
 
     }
 
-    /*    This methods is used in card3 to send email to EA mail recipient*/
+    /*    This method is used in card3 to send email to EA mail recipient*/
 
     public void sendEmail(View view) {
         mail.setData(Uri.parse("mailto:"));
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    /*    This methods is used in card3 to share info about EA*/
+    /*    This method is used in card3 to share info about EA*/
 
     public void shareTheLove(View view) {
         Intent sharingIntent = new Intent(Intent.ACTION_SEND);
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    /*    This methods is used in goToWebsite*/
+    /*    This method is used in goToWebsite*/
 
     private void goToUrl(String url) {
         Uri uriUrl = Uri.parse(url);
