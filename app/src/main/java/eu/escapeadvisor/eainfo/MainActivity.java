@@ -8,7 +8,6 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    Intent mail;
     String website;
     String business;
     String address1;
@@ -19,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mail = new Intent(Intent.ACTION_SENDTO);
+
         website = getString(R.string.website);
         business = getString(R.string.cardview3_business);
         address1 = getString(R.string.cardview3_address1);
@@ -38,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     /*    This method is used in card3 to send email to EA mail recipient*/
 
     public void sendEmail(View view) {
+        Intent mail = new Intent(Intent.ACTION_SENDTO);
         mail.setData(Uri.parse("mailto:"));
         mail.putExtra(Intent.EXTRA_TEXT, object);
         mail.putExtra(Intent.EXTRA_SUBJECT, (getString((R.string.email_subject))));
